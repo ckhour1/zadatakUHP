@@ -1,7 +1,7 @@
 /* Public Tizen application APIs. No Mac server, network address or credentials. */
 (function () {
   'use strict';
-  var IDS = { netflix: 'org.tizen.netflix-app', youtube: '9Ur5IzDKqV.TizenYouTube' };
+  var IDS = { netflix: 'org.tizen.netflix-app', youtube: 'xvvl3S1bvH.TizenBrewStandalone' };
   var STREAMING = ['as6cYRgkPy.Binge', '73iTZRTc34.Stan', '5b8c3eb16b.BeamCTVDev',
     'KaLitts8bq.tenplaySamsungTizen', 'eYuOiOLYQX.KayoSports', 'Ne2ZsPWdKl.9NOW',
     '3KA0pm7a7V.TubiTV', 'rJeHak5zRg.Spotify', 'icp4AvUPiA.7plus'];

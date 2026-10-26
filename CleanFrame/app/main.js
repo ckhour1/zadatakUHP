@@ -16,7 +16,8 @@
   // Default Home apps for the Q70R; IDs read from the TV's applist.
   var PRIMARY_APPS = [
     { id: 'netflix', name: 'Netflix', mark: true, appId: 'org.tizen.netflix-app' },
-    { id: 'youtube', name: 'YouTube', mark: true, appId: '9Ur5IzDKqV.TizenYouTube' },
+    // YouTube opens TizenBrew, which autolaunches TizenTube (YouTube without ads).
+    { id: 'youtube', name: 'YouTube', mark: true, appId: 'xvvl3S1bvH.TizenBrewStandalone' },
     { id: 'sKl1iOtsOd.MAXtv', name: 'MAXtv', mark: false, appId: 'sKl1iOtsOd.MAXtv' },
     { id: 'PBQp5i7MRh.A1XploreTVCro', name: 'A1 Xplore TV', mark: false, appId: 'PBQp5i7MRh.A1XploreTVCro' }
   ];
