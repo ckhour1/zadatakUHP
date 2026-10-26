@@ -1,0 +1,29 @@
+# Machine-specific tools, signing keys and device configuration
+/.local/
+/dist/
+/node_modules/
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+*.p12
+*.pem
+*.key
+*.csr
+profiles.xml
+session.json
+certificate-password.txt
+
+# Proprietary fonts are injected from .local/ at preview/package time.
+/app/assets/private-fonts/
+PP*.ttf
+PP*.otf
+PP*.woff
+PP*.woff2
+*.wgt
+
+# Personal studies, research and draft writing stay local.
+/explorations/
+/docs/research/
+/docs/articles/
