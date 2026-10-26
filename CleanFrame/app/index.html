@@ -8,6 +8,11 @@
 <link rel="stylesheet" href="assets/typefaces.css">
 <link rel="stylesheet" href="assets/private-fonts.css">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="flexgap-fallback.css">
+<script>
+// Tizen 5.0 (2019 TVs) predates flexbox gap; flexgap-fallback.css spaces items with margins instead.
+(function () { var d = document.createElement('div'); d.style.cssText = 'display:flex;flex-direction:column;gap:1px;position:absolute'; d.appendChild(document.createElement('div')); d.appendChild(document.createElement('div')); document.documentElement.appendChild(d); if (d.scrollHeight !== 1) document.documentElement.className += ' no-flexgap'; d.parentNode.removeChild(d); })();
+</script>
 </head>
 <body>
       <main class="stage" id="stage" tabindex="0" aria-label="TV stage, 1920 by 1080. Click it, then use the arrow keys, Enter for OK and Escape for Back.">

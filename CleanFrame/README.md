@@ -1,5 +1,7 @@
 # CleanFrame
 
+> **Ova kopija je prilagođena za Samsung QE55Q70R (2019, Tizen 5.0).** Upute: [UPUTE-Q70R.md](UPUTE-Q70R.md)
+
 A quieter home screen for Samsung The Frame. Your apps, a photograph and the time, with an interface made for the TV remote.
 
 ![CleanFrame browser preview using the bundled Manrope font](docs/images/cleanframe-dock.jpg)
